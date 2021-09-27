@@ -6,13 +6,13 @@ import { useEffect, useState } from 'react';
 
 
 
-
+// using UseState.................................
 
 const Casts = () => {
      const [casts, setcasts] = useState([]);
      const [cart,setCart] = useState([]);
      const [name,setName] = useState([]);
-  
+  // gathering data from local JSON file...................................
   useEffect(() => {
     fetch('./fakeData.JSON')
     .then(res => res.json())
@@ -34,7 +34,7 @@ const Casts = () => {
 
 
 
-
+// creating loop for cart section .........................................
       let total = 0;
       let names = " ";
       
@@ -46,7 +46,7 @@ const Casts = () => {
     
 }
        
-
+// main area code..............................................................
     return (
       <div className="motherDiv">
          <div >
@@ -57,7 +57,7 @@ const Casts = () => {
              
              <div className="casts">
              {
-
+// mapping data & cart area code ........................................
               casts.map(cast => <Cast 
                   key={cast.key} 
                   cast={cast}

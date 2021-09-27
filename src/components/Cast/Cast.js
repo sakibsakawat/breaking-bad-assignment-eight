@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cast.css';
 const Cast = (props) => {
-
+// gathering data from Casts.js....................................
     const { name, born, job,knownFor,salary,img,} = props.cast
     return (
         <div className="cast">
