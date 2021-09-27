@@ -1,0 +1,35 @@
+.motherDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.casts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+}
+.signing{
+    height: 470px;
+    width: 320px;
+    border: 1px solid green;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.signingh4{
+    color: ivory;
+    background-color: green;
+    padding: 15px 30px;
+    border-radius:30px ;
+}
+.signingh5{
+    
+    border: 2px solid green;
+    padding: 15px 30px;
+    border-radius:30px ;
+}
+.motherDivP{
+    font-weight:bold;
+}

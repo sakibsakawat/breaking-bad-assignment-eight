@@ -1,0 +1,35 @@
+.cast{
+    height: 470px;
+    width: 250px;
+    border: 1px solid green;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.cast:hover{
+    background-color: rgba(11, 78, 33, 0.158);
+}
+.cast img{
+    height:80px;
+    width:80px;
+    border-radius: 60%;
+    margin-top: 20px;
+}
+.tag{
+    color: green;
+    
+}
+.cartBox{
+    display: flex;
+}
+.btn{
+    color: green;
+    border: 2px solid green;
+    padding: 10px 50px;
+    border-radius:20px ;
+}
+.btn:hover{
+    color: white;
+    background-color:green;
+}
